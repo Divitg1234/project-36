@@ -53,13 +53,13 @@ function draw() {
   fill("red");
   textSize(15);
   if(lastFed>=12){
-    text("last fed : ",lastFed%12+ " PM",250,30);
+    text("last fed : "+lastFed%12+ " PM",350,30);
   }
   else if(lastFed==0){
     text("last fed : 12 PM",350,30);
   }
   else{
-    text("last fed : ",lastFed+ " AM",350,30);
+    text("last fed : "+lastFed+ " AM",350,30);
   }
 
  
